@@ -13,7 +13,7 @@
 
 ==Abstract==
 
-This BIP defines OP_CAT a new tapscript opcode which allows the concatenation of two values on the stack. This opcode would be activated via a soft fork by redefining the opcode OP_SUCCESS80.
+This BIP defines OP_CAT a new tapscript opcode which allows the concatenation of two values on the stack. This opcode would be activated via a soft fork by redefining the opcode OP_SUCCESS126.
 
 When evaluated the OP_CAT instruction:
 # Pops the top two values off the stack,
@@ -88,7 +88,7 @@ OP_CAT as it existed in the Bitcoin codebase prior to the commit "misc changes" 
 == Credits ==
 
 == Reference Implementation ==
-[Elements](https://github.com/ElementsProject/elements/blob/master/src/script/interpreter.cpp#L1043)
+[Element](https://github.com/ElementsProject/elements/blob/master/src/script/interpreter.cpp#L1043)
 
 == Copyright ==
 This document is placed in the public domain.
